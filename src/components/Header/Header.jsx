@@ -1,5 +1,6 @@
 
-import './Header.css'
+import './Header.css';
+import { Link } from 'react-router-dom';
 import Moon from '../../assets/MoonWithStars.png';
 import Star from '../../assets/Star.png';
 function Header() {
@@ -14,11 +15,11 @@ function Header() {
 
       <div>
         <div className='nav-items'>
-          <p>Hem</p>
-          <p>Om mig</p>
-          <p>Project</p>
-          <p>CV</p>
-          <p>Kontakt</p>
+          <Link to="/" className='nav-links'>Hem</Link>
+          <Link to="/projects" className='nav-links'>Projekt</Link>
+          <Link to="/projects" className='nav-links'>Om mig</Link>
+          <Link to="/projects" className='nav-links'>CV</Link>
+          <Link to="/projects" className='nav-links'>Kontakt</Link>
         </div>
         <img src={Star} id='star' />
       </div>

@@ -1,17 +1,17 @@
-body {
-background: linear-gradient(
-  120deg, 
-  #F45FFF 0%, 
-  #ff5fb4 10%, 
-  #fabb8b 40%
-);
+/* body {
+  background: linear-gradient(120deg,
+
+      #ff5fb4 10%,
+      #fabb8b 40%);
+
   background-size: 300% 300%;
   animation: gradientMove 8s ease infinite;
   height: 100;
   margin: 0;
-}
+} */
 
-/*  @keyframes gradientMove {
+/* 
+ @keyframes gradientMove {
   0% {
     background-position: 0% 10%;
   }
@@ -23,6 +23,22 @@ background: linear-gradient(
   100% {
     background-position: 0% 10%;
   }
-}  */
+} 
+ */
+
+.nav-links {
+  text-decoration: none;
+  color: #333;
+
+  margin: 10px;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
 
 
+.title {
+  font-family: 'Akaya Telivigala';
+  font-size: 60px;
+  text-align: center;
+}

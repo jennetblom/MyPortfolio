@@ -1,5 +1,5 @@
 import profilbild from '../../assets/profilbild.jpg';
-import './Startpage.css'
+import './Home.css'
 import rectangle from '../../assets/Rectangle.png';
 import workplace from '../../assets/workplace.png';
 import clickSound from "../../assets/clicksound.wav";
@@ -7,7 +7,7 @@ function Startpage() {
 
     const handleClick = () => {
         const audio = new Audio(clickSound);
-        audio.volume = 0.1;
+        audio.volume = 0.2;
         audio.play();
     };
     return (
@@ -15,7 +15,7 @@ function Startpage() {
         <div className='startpage'>
             <div className='card'>
 
-                <div className='title'>
+                <div className='nameInfo'>
                     <p id='intro'>
                         Hej, mitt namn är
                     </p>
@@ -30,8 +30,9 @@ function Startpage() {
             </div>
 
             <div className='image-container'>
-                <img src={rectangle} className='rectangle' />
+       
                 <img src={profilbild} className='profilePic' />
+                
             </div>
             <img src={workplace} id='workplace'></img>
         </div>
