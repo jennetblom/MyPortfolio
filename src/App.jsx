@@ -4,8 +4,10 @@ import Layout from './components/Layout/Layout.jsx';
 
 import Header from './components/Header/Header.jsx';
 import Home from './pages/Home/Home.jsx';
+
 import { Routes, Route } from 'react-router-dom';
 import Projects from './pages/Projects/Projects.jsx';
+import Contact from './pages/Contact/Contact.jsx';
 function App() {
 
 
@@ -16,6 +18,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </Layout>
     </div>

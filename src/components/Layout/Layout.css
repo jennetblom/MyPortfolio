@@ -6,6 +6,21 @@ body {
 
   background-size: 300% 300%;
   animation: gradientMove 8s ease infinite;
-  height: 100vh;
+
   margin: 0;
 } 
+/* 
+ @keyframes gradientMove {
+  0% {
+    background-position: 0% 10%;
+  }
+
+  50% {
+    background-position: 20% 30%;
+  }
+
+  100% {
+    background-position: 0% 10%;
+  }
+} 
+  */

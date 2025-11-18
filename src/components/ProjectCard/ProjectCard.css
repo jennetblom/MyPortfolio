@@ -1,20 +1,25 @@
 .projectCard {
     background-color: #FFB5E2;
-    padding: 10px 50px;
+    padding: 20px  ;
     border-radius: 20px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.267);
+    margin-bottom: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .cardTitle {
     font-family: Akaya Telivigala;
-    font-size: 38px;
+    font-size: 48px;
     margin-bottom: 0px;
 
 }
 
 .cardSubtitle {
     font-family: Akaya Telivigala;
-    font-size: 22px;
+    font-size: 32px;
     margin-top: 2px;
     margin-bottom: 0px;
 }

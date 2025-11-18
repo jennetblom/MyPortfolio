@@ -18,8 +18,8 @@ function Header() {
           <Link to="/" className='nav-links'>Hem</Link>
           <Link to="/projects" className='nav-links'>Projekt</Link>
           <Link to="/projects" className='nav-links'>Om mig</Link>
+          <Link to="/contact" className='nav-links'>Kontakt</Link>
           <Link to="/projects" className='nav-links'>CV</Link>
-          <Link to="/projects" className='nav-links'>Kontakt</Link>
         </div>
         <img src={Star} id='star' />
       </div>
