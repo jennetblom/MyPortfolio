@@ -27,24 +27,30 @@ function Contact() {
           <p>
 
             Jag svarar snabbast på mobilen, men du är självklart välkommen att kontakta mig via mail, LinkedIn eller GitHub också.
-            Ser fram emot att höra från dig!
+            Ser fram emot att höra från dig! 🌞
 
           </p>
-          <hr />
-          <div className="contactInfo">
-{/*             <p>📱 0700189220</p>
-            <button className='button' onClick={handleClick}>📱 0700189220</button>
-            <button className='button' onClick={handleClick}>✉️ jeboblom20@hotmail.com</button>
-            <p>✉️ jeboblom20@hotmail.com</p> */}
-          
 
+          <div className="contactInfo">
+
+            <a href="tel:0700189220" className="iconLinkText">
+
+              <span>📱 0700-189220</span>
+            </a>
+
+            <a href="mailto:jeboblom20@hotmail.com" className="iconLinkText">
+
+              <span>✉️ jeboblom20@hotmail.com</span>
+            </a>
+          </div>
+          <div className='icons'>
             <a
               href="https://github.com/jennetblom"
               target="_blank"
               rel="noopener noreferrer"
               className="iconLink"
             >
-              <img src={GitHub} alt="GitHub" />
+              <img src={GitHub} alt="GitHub" className='iconContact' />
             </a>
             <a
               href="https://www.linkedin.com/in/jennet-blom-2a78a9200"
@@ -52,9 +58,11 @@ function Contact() {
               rel="noopener noreferrer"
               className="iconLink"
             >
-              <img src={LinkedIn} alt="LinkedIn" />
+              <img src={LinkedIn} alt="LinkedIn" className='iconContact' />
             </a>
           </div>
+
+
 
 
         </div>
